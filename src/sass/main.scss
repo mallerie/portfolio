@@ -246,8 +246,17 @@ img {
   }
 }
 
+.title-wrapper {
+  min-width: 20%;
+}
+
 .project-desription-wrapper {
   .project-description {
+    width: 60%;
+    p {
+      width: 60%;
+      min-width: 15em;
+    }
     .description-paragraph {
       a {
         color: blue;
